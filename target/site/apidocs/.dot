@@ -56,23 +56,8 @@ digraph G {
 <tr><td align="left" balign="left"> + main(args : String[]) </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// FifoTest
-	c3 [label=<<table title="FifoTest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FifoTest.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FifoTest </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + FifoTest() </td></tr>
-<tr><td align="left" balign="left"> + testPush() </td></tr>
-<tr><td align="left" balign="left"> + testHead() </td></tr>
-<tr><td align="left" balign="left"> + testPop() </td></tr>
-		</table></td></tr>
-		</table>>, fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// StackAbstract
-	c4 [label=<<table title="StackAbstract" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StackAbstract.html">
+	c3 [label=<<table title="StackAbstract" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StackAbstract.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> StackAbstract </font></td></tr>
 		</table></td></tr>
@@ -91,6 +76,27 @@ digraph G {
 <tr><td align="left" balign="left"> + push(x : int) </td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + head() : int </font></td></tr>
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + pop() : int </font></td></tr>
+		</table></td></tr>
+		</table>>, fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// QAStackTest
+	c4 [label=<<table title="QAStackTest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./QAStackTest.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> QAStackTest </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + QAStackTest() </td></tr>
+<tr><td align="left" balign="left"> + before() </td></tr>
+<tr><td align="left" balign="left"> + after() </td></tr>
+<tr><td align="left" balign="left"> + testPush() </td></tr>
+<tr><td align="left" balign="left"> + testPop() </td></tr>
+<tr><td align="left" balign="left"> + testIsEmpty() </td></tr>
+<tr><td align="left" balign="left"> + testIsFull() </td></tr>
+<tr><td align="left" balign="left"> + testGetNumberOfElement() </td></tr>
+<tr><td align="left" balign="left"> + testHead() </td></tr>
+<tr><td align="left" balign="left"> + testGetSize() </td></tr>
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// QAStack
@@ -136,9 +142,9 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//Fifo extends StackAbstract
-	c4:p -> c0:p [dir=back,arrowtail=empty];
+	c3:p -> c0:p [dir=back,arrowtail=empty];
 	//Lifo extends StackAbstract
-	c4:p -> c1:p [dir=back,arrowtail=empty];
+	c3:p -> c1:p [dir=back,arrowtail=empty];
 	// Fifo NAVASSOC Lifo
 	c0:p -> c1:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// Fifo NAVASSOC Lifo

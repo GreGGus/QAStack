@@ -44,7 +44,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// StackAbstract
-	c17 [label=<<table title="StackAbstract" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StackAbstract.html">
+	c15 [label=<<table title="StackAbstract" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StackAbstract.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> StackAbstract </font></td></tr>
 		</table></td></tr>
@@ -66,9 +66,9 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//Fifo extends StackAbstract
-	c17:p -> c10:p [dir=back,arrowtail=empty];
+	c15:p -> c10:p [dir=back,arrowtail=empty];
 	//Lifo extends StackAbstract
-	c17:p -> c11:p [dir=back,arrowtail=empty];
+	c15:p -> c11:p [dir=back,arrowtail=empty];
 	// Fifo NAVASSOC Lifo
 	c10:p -> c11:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// Fifo NAVASSOC Lifo

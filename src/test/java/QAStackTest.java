@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 * @since <pre>déc. 3, 2015</pre> 
 * @version 1.0 
 */ 
-public class QAStackTest { 
+public class QAStackTest {
 
 @Before
 public void before() throws Exception { 

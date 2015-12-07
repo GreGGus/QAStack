@@ -11,7 +11,7 @@ digraph G {
 	ranksep=0.5;
 	rankdir=LR;
 	// Fifo
-	c43 [label=<<table title="Fifo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fifo.html">
+	c36 [label=<<table title="Fifo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Fifo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Fifo </td></tr>
 		</table></td></tr>
@@ -29,7 +29,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// Lifo
-	c44 [label=<<table title="Lifo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Lifo.html">
+	c37 [label=<<table title="Lifo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Lifo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Lifo </td></tr>
 		</table></td></tr>
@@ -44,7 +44,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// StackAbstract
-	c47 [label=<<table title="StackAbstract" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StackAbstract.html">
+	c39 [label=<<table title="StackAbstract" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StackAbstract.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> StackAbstract </font></td></tr>
 		</table></td></tr>
@@ -66,12 +66,12 @@ digraph G {
 		</table></td></tr>
 		</table>>, fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//Fifo extends StackAbstract
-	c47:p -> c43:p [dir=back,arrowtail=empty];
+	c39:p -> c36:p [dir=back,arrowtail=empty];
 	//Lifo extends StackAbstract
-	c47:p -> c44:p [dir=back,arrowtail=empty];
+	c39:p -> c37:p [dir=back,arrowtail=empty];
 	// Fifo NAVASSOC Lifo
-	c43:p -> c44:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c36:p -> c37:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// Fifo NAVASSOC Lifo
-	c43:p -> c44:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c36:p -> c37:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 
