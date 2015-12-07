@@ -70,6 +70,42 @@ public class Fifo extends StackAbstract
         	// Transfer everything back to LIFO One to prepare for future operations.
 
         	popHelper(lifoTwo, lifoOne);
+	}
+    }
+
+    public  int head() throws IllegalStateException
+    {
+    	if (lifoOne.top > -1)	
+    	{
+    		return lifoOne.stack[0];
+    	}
+    	else
+    	{
+    		throw new IllegalStateException("Cannot look at the head because there is nothing in the queue.");
+    	}
+    }
+
+  /**************************
+   * 
+   * 
+   * 
+   **************************/
+
+    @Override
+    public  int pop()throws IllegalStateException
+    {
+    	if (!isEmpty())
+    	{
+    		popHelper(lifoOne, lifoTwo);
+
+        	// We now have the stack in inverted order in LIFO Two.
+        	// We can pop the top element off, which was the bottom of LIFO One.
+
+        	int poppedInt = lifoTwo.pop();
+
+        	// Transfer everything back to LIFO One to prepare for future operations.
+
+        	popHelper(lifoTwo, lifoOne);
 
         	return poppedInt;
     	}
