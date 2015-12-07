@@ -3,7 +3,6 @@
  */
 public class main {
 
-
     public static void main(String[] args) {
         Lifo newStack = new Lifo(5);
         newStack.push(10);
