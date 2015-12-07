@@ -15,7 +15,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>QAStack</mainClass>
+                            <mainClass>main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

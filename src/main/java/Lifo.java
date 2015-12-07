@@ -10,6 +10,8 @@ public class Lifo extends StackAbstract {
         top=-1;
     }
 
+
+
     @Override
     public  int head() throws IllegalStateException{
         return stack[top];
@@ -20,14 +22,23 @@ public class Lifo extends StackAbstract {
 
         int a;
         if(!isEmpty()) {
-            a = top;
+            a = stack[top];
+
+            stack[top]=0;
             top = top - 1;
-            return stack[a];
+
+            return a;
         }
         else{
+            System.out.print("Vide");
             throw new IllegalStateException("Don't");
 
         }
+    }
+
+    public int get(int i)
+    {
+        return stack[i];
     }
 
 
