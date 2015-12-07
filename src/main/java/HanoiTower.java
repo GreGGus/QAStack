@@ -19,13 +19,6 @@ public class HanoiTower
     {
         Scanner scan = new Scanner(System.in);
 
-        tower[1] = new Stack<Integer>();
-
-
-        tower[2] = new Stack<Integer>();
-
-
-        tower[3] = new Stack<Integer>();
 
          /* Accepting number of disks */
 
@@ -46,7 +39,7 @@ public class HanoiTower
 
     {
 
-    HanoiTower hanoi = new HanoiTower();
+        HanoiTower hanoi = new HanoiTower();
 
     }
 
@@ -59,7 +52,6 @@ public class HanoiTower
         towerLifo[1]=new Lifo(N);
         towerLifo[2]=new Lifo(N);
         towerLifo[3]=new Lifo(N);
-        toh(a);
     }
 
      /* Function to push disks into stack */
