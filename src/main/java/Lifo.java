@@ -5,34 +5,32 @@ public class Lifo extends StackAbstract {
 
     public Lifo(int arraySize)
     {
-        size=arraySize;
-        stack= new int[size];
-        top=-1;
+        size = arraySize;
+        stack = new int[size];
+        top = -1;
     }
 
-
-
     @Override
-    public  int head() throws IllegalStateException{
+    public  int head() throws IllegalStateException
+    {
         return stack[top];
-
     }
+
     @Override
-    public  int pop()throws IllegalStateException{
+    public int pop()throws IllegalStateException{
 
         int a;
+
         if(!isEmpty()) {
             a = stack[top];
-
-            stack[top]=0;
+            stack[top] = 0;
             top = top - 1;
 
             return a;
         }
-        else{
+        else {
             System.out.print("Vide");
             throw new IllegalStateException("Don't");
-
         }
     }
 
@@ -40,7 +38,4 @@ public class Lifo extends StackAbstract {
     {
         return stack[i];
     }
-
-
-
 }
