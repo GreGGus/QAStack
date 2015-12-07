@@ -8,8 +8,10 @@ public class main {
     	Fifo testFIFO = new Fifo(10);
     	
     	testFIFO.push(1);
+    	testFIFO.pop();
     	testFIFO.push(2);
-    	testFIFO.push(5);
+    	testFIFO.push(3);
+    	testFIFO.push(4);
     	testFIFO.pop();
 
     	testFIFO.head();

@@ -1,8 +1,8 @@
 /**
  * Created by debgreg on 04/12/15.
  */
-public abstract class StackAbstract
-{
+public abstract class StackAbstract {
+
     // Class abstract pour implementer une stack LIFO ou une FIFO
 
     protected int top;
@@ -11,8 +11,6 @@ public abstract class StackAbstract
 
     public void display()
     {
-        for(int i = 0; i <= top; i++)
-
         for(int i = 0; i <= top; i++)
         {
             System.out.print(stack[i]+ " ");
