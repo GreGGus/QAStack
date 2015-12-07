@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Fifo.html" title="Fifo" alt="" coords="284,11,531,191"/>
+<area shape="rect" id="node2_1" href="./Lifo.html" title="Lifo" alt="" coords="600,37,741,165"/>
+<area shape="rect" id="node3_2" href="./StackAbstract.html" title="StackAbstract" alt="" coords="16,43,215,292"/>
+</map>

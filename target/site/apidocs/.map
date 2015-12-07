@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Fifo.html" title="Fifo" alt="" coords="313,803,560,983"/>
+<area shape="rect" id="node2_1" href="./Lifo.html" title="Lifo" alt="" coords="629,829,771,957"/>
+<area shape="rect" id="node3_2" href="./main.html" title="main" alt="" coords="57,707,203,800"/>
+<area shape="rect" id="node4_3" href="./FifoTest.html" title="FifoTest" alt="" coords="84,544,176,672"/>
+<area shape="rect" id="node5_4" href="./StackAbstract.html" title="StackAbstract" alt="" coords="31,835,229,1085"/>
+<area shape="rect" id="node6_5" href="./QAStack.html" title="QAStack" alt="" coords="31,243,229,509"/>
+<area shape="rect" id="node7_6" href="./HanoiTower.html" title="HanoiTower" alt="" coords="16,11,244,208"/>
+</map>
